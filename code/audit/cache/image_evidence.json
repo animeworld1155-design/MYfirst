@@ -1,0 +1,117 @@
+{
+  "_note": "Structured transcription of the supplied screenshot evidence (dataset/evidence/images). The OEM OCR route is not available in the audit runtime, so each console screenshot was read during development and its record-level facts are recorded here. Every entry names the system, resource id, record state and the identifiers visible on the screenshot. Keys map to the evidence file basename.",
+  "entries": [
+    {
+      "file": "account_admin_console_20260926.png",
+      "system": "account_service",
+      "resource_id": "account_5762",
+      "category": "USER_PROFILE",
+      "state": "PRESENT",
+      "email": "haruka.s1838@zoho.com",
+      "phone": "+81 90 7610 2507",
+      "name": "Haruka Sato"
+    },
+    {
+      "file": "analytics_profile_view_20260713.png",
+      "system": "analytics_platform",
+      "resource_id": "analytics_7438",
+      "category": "ANALYTICS_PROFILE",
+      "state": "PRESENT",
+      "email": "darwish.omar@icloud.com",
+      "name": "Omar Darwish"
+    },
+    {
+      "file": "backup_restore_console_20260429.png",
+      "system": "backup_service",
+      "resource_id": "backup_9287",
+      "category": "BACKUP_ARCHIVE",
+      "state": "ACTIVE",
+      "email": "areed1433@gmail.com"
+    },
+    {
+      "file": "connector_management_console_20260807.png",
+      "system": "integration_service",
+      "resource_id": "data_flow_1121",
+      "category": "DATA_FLOW",
+      "state": "ACTIVE",
+      "email": "jain.aditi@gmail.com"
+    },
+    {
+      "file": "connector_management_console_20260807.png",
+      "system": "integration_service",
+      "resource_id": "data_flow_9846",
+      "category": "DATA_FLOW",
+      "state": "ACTIVE",
+      "email": "lucia-torres@gmail.com"
+    },
+    {
+      "file": "customer_export_console_20260618.png",
+      "system": "export_service",
+      "resource_id": "export_1260",
+      "category": "USER_EXPORT",
+      "state": "PRESENT",
+      "email": "ingrid.dahl@outlook.com"
+    },
+    {
+      "file": "marketing_profile_console.png",
+      "system": "marketing_platform",
+      "resource_id": "marketing_001",
+      "category": "MARKETING_PROFILE",
+      "state": "PRESENT",
+      "email": "sj.park@naver.com",
+      "phone": "+82 10-5837-9451",
+      "name": "Soo-jin Park"
+    },
+    {
+      "file": "search_index_inspector_20260901.png",
+      "system": "search_service",
+      "resource_id": "search_428",
+      "category": "SEARCH_INDEX_ENTRY",
+      "state": "PRESENT",
+      "email": "g.silva76@gmail.com",
+      "user_ref": "user_13",
+      "name": "Gabriel Silva"
+    },
+    {
+      "file": "search_index_inspector_20260901.png",
+      "system": "search_service",
+      "resource_id": "search_1874",
+      "category": "SEARCH_INDEX_ENTRY",
+      "state": "PRESENT",
+      "email": "g.silva76.jr@gmail.com"
+    },
+    {
+      "file": "security_audit_explorer_20260905.png",
+      "system": "security_service",
+      "resource_id": "audit_record_003",
+      "category": "SECURITY_AUDIT_LOG",
+      "state": "PRESENT",
+      "user_ref": "user_03"
+    },
+    {
+      "file": "security_audit_explorer_20260905.png",
+      "system": "security_service",
+      "resource_id": "audit_record_001",
+      "category": "SECURITY_AUDIT_LOG",
+      "state": "PRESENT",
+      "user_ref": "user_03"
+    },
+    {
+      "file": "security_audit_explorer_20260905.png",
+      "system": "security_service",
+      "resource_id": "audit_record_002",
+      "category": "SECURITY_AUDIT_LOG",
+      "state": "PRESENT",
+      "user_ref": "user_03"
+    },
+    {
+      "file": "support_ticket_console_20260524.png",
+      "system": "support_platform",
+      "resource_id": "support_1034",
+      "category": "SUPPORT_MESSAGE",
+      "state": "PRESENT",
+      "email": "kagyeman8947@fastmail.com",
+      "name": "Kofi Agyeman"
+    }
+  ]
+}
